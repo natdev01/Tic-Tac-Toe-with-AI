@@ -53,7 +53,7 @@ public class Board {
                 return checkingPlayer;
             }
         }
-
+ 
         //check rows
         for (CellState[] cellStates : board) {
             checkingPlayer = cellStates[0];
